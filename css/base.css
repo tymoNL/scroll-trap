@@ -120,10 +120,3 @@ button {
 .post-actions button {
     font-size: 1rem;
 }
-
-/* Ensure interaction menu stays fixed on the right */
-.interactMenu {
-    position: sticky;
-    top: var(--spacing-base);
-    align-self: flex-start;
-}
