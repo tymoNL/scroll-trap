@@ -1,0 +1,39 @@
+button,
+a {
+    transition: all 0.3s ease-in-out;
+
+    &.home,
+    &.friends,
+    &.create,
+    &.inbox,
+    &.profile {
+        --color-text-hover: crimson;
+    }
+
+    &.like {
+        --color-text-hover: #e0245e;
+    }
+
+    &.comment {
+        --color-text-hover: #1da1f2;
+    }
+
+    &.bookmark {
+        --color-text-hover: #f9c22e;
+    }
+
+    &.share {
+        --color-text-hover: #17bf63;
+    }
+
+    &.user {
+        --color-text-hover: #ff7f50;
+    }
+
+    &:hover,
+    &:focus,
+    &:active,
+    &.active {
+        --color-text: var(--color-text-hover);
+    }
+}
