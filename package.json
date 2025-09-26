@@ -1,0 +1,15 @@
+{
+  "name": "scrolltrap-project",
+  "version": "1.0.0",
+  "description": "Scrolltrap demo met fake posts via Node/Express",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "node-fetch": "^3.4.1"
+  },
+  "author": "",
+  "license": "ISC"
+}
